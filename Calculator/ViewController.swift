@@ -29,7 +29,8 @@ class ViewController: UIViewController {
         result.text = (result.text)! + String(number.tag)
     }
     
-    // make sure there is a number on screen and add a decimal 
+    // make sure there is a number on screen and add a decimal
+    // update
     @IBAction func decimalPoint(_ decimal: UIButton) {
         print("decimal: \(String(describing: decimal.titleLabel!.text))")
     }
